@@ -1,7 +1,37 @@
 .navcontainer{
     display: flex;
+    justify-content: space-between;
     width: 100%;
     margin: auto;
     height: 5.5rem;
-    background-color: #DFD9D8;
+    background-color: #2e2a29;
+}
+
+.logo{
+    color: blue;
+    margin: 30px;
+    padding: 5px;
+    /* width: 30px;
+    height: 5px; */
+    background-color: white;
+    border: 1px solid white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.nav-menu{
+    
+}
+
+.nav-item{
+    display: flex;
+    margin: 30px;
+}
+
+.nav-link{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+Link{
+    
 }
