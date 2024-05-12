@@ -9,17 +9,15 @@
 
 .logo{
     color: blue;
-    margin: 30px;
+    margin: 30px 100px;
     padding: 5px;
-    /* width: 30px;
-    height: 5px; */
     background-color: white;
     border: 1px solid white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .nav-menu{
-    
+    margin: 0px 100px;
 }
 
 .nav-item{
@@ -35,3 +33,40 @@
 Link{
     
 }
+
+
+/* Media query for responsive design */
+
+@media (max-width: 576px) { 
+    .navcontainer{
+        width: 100%;
+    }
+ }
+
+
+/* small device tablet */
+@media (min-width: 576px) and (max-width: 768px) {    
+    .navcontainer{
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .logo{
+        margin: 30px -10px;
+        font-size: 10px;
+    }
+
+    .nav-item{
+        flex-direction: column; 
+        align-items: center;
+    }    
+
+    .nav-link{
+        color:blueviolet;
+    }
+
+    .nav-menu{
+        margin: 0px 160px;
+    }
+}
+
