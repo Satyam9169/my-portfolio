@@ -1,0 +1,18 @@
+.mainnav {
+    background: url('../../assets/Images/Home1.jpg') no-repeat center center/cover;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+    opacity: 1.5;
+}
+
+.text-animation{
+    position: relative;
+    top: 14rem;
+}
+.innertext{
+    position: absolute;
+    top: 50%;
+    left: 50%;;
+    transform: translate(-50%, -50%);
+}

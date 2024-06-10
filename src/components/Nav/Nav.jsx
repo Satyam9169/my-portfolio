@@ -1,28 +1,74 @@
-import React from 'react'
-import './Nav.css'
-import { Link } from 'react-router-dom'
+import React from "react";
+import logo from "../../assets/Images/satyamLOGO.png";
+import "./Nav.css";
+import { Link } from "react-router-dom";
 
 
 const Nav = () => {
+
   return (
     <>
-      <nav className='navcontainer'>
-        <div className='logo'><p>&lt;My Portfilio&#47;&gt;</p></div>
-        <div className='nav-menu'>
-          <ul className='nav-item'>
-            <li><Link to="/" className='nav-link'>Home</Link></li>
-            <li><Link to="/" className='nav-link'>About us</Link></li>
-            <li><Link to="/" className='nav-link'>Skills</Link></li>
-            <li><Link to="/" className='nav-link'>Experience</Link></li>
-            <li><Link to="/" className='nav-link'>Qualification</Link></li>
-            <li><Link to="/" className='nav-link'>Project</Link></li>
-            <li><Link to="/" className='nav-link'>Contact us</Link></li>
-            <li><i className="fa-solid fa-bars" width={20} height={20}></i></li>
-          </ul>
-        </div>
-      </nav>
-    </>
-  )
-}
+      
+        <nav className="navbar navbar-expand-lg navbar-dark navbar-skyblack">
+          <div className="container">
+            <Link className="navbar-brand" to={"/"}>
+              <img src={logo} alt="website logo" />
+            </Link>
+            <button
+              className="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span className="navbar-toggler-icon"></span>
+            </button>
+            <div
+              className="collapse navbar-collapse "
+              id="navbarSupportedContent">
+              <ul className="navbar-nav ms-auto mb-3 mb-lg-0 text-center">
+                <li className="nav-item">
+                  <Link
+                    className="nav-link active"
+                    aria-current="page"
+                    to={"/"}>
+                    Home
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link" to={"/about"}>
+                    About US
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link" to={"/experience"}>
+                    Experience
+                  </Link>
+                </li>
 
-export default Nav
+                <li className="nav-item">
+                  <Link className="nav-link" to={"/skills"}>
+                    TechStack
+                  </Link>
+                </li>
+
+                <li className="nav-item">
+                  <Link className="nav-link" to={"/project"}>
+                    Project
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link" to={"/contact"}>
+                    Contact us
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+    </>
+  );
+};
+
+export default Nav;
