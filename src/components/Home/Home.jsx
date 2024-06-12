@@ -1,5 +1,5 @@
-import React from 'react';
-import './Home.css';
+import React from "react";
+import "./Home.css";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 
 const Home = () => {
@@ -8,7 +8,7 @@ const Home = () => {
     loop: {},
     typeSpeed: 100,
     deleteSpeed: 80,
-    delaySpeed: 1000
+    delaySpeed: 1000,
   });
 
   return (
@@ -16,7 +16,7 @@ const Home = () => {
       <div className="mainnav container-fluid">
         <div className="text-animation">
           <h1 className="innertext text-center text-white">
-            Hi, I'm {" "}
+            Hi, I'm{" "}
             <span style={{ fontWeight: "bold", color: "yellow" }}>{text}</span>
             <Cursor />
           </h1>

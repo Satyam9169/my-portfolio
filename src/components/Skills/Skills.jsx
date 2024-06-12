@@ -1,4 +1,5 @@
 import React from "react";
+import "./Skills.css";
 import img1 from "../../assets/All/img1.png";
 import img2 from "../../assets/All/img2.png";
 import img3 from "../../assets/All/img3.png";
@@ -24,13 +25,17 @@ const Skills = () => {
     <>
       <section className="techstack py-5">
         <div className="container">
-          <div className="row justify-content-center">
+          <div className="row">
+            <div className="skillsline">
+              <h1 className="text-primary">Skills</h1>
+              <p className="underline"></p>
+            </div>
             {images.map((image) => (
               <div
                 key={image.id}
                 className="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center py-4">
                 <div
-                  className="card shadow"
+                  className="card skill-card shadow"
                   style={{ width: "12rem", height: "12rem" }}>
                   <img
                     src={image.path}

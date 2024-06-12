@@ -2,7 +2,14 @@ import React from "react";
 import logo from "../../assets/Images/satyamLOGO.png";
 import { Link } from "react-router-dom";
 import "./Footer.css"; // Add a new CSS file for the footer
-import { Linkedin, Github, Email, Location, Phone, JavaScript } from "../../Utils/constant.jsx";
+import {
+  Linkedin,
+  Github,
+  Email,
+  Location,
+  Phone,
+  JavaScript,
+} from "../../Utils/constant.jsx";
 import useFooter from "./useFooter.jsx";
 
 const Footer = () => {
@@ -14,7 +21,8 @@ const Footer = () => {
   4) good understandable
   5) other developer can read 
   */
-  const { handleGithub, handleLinkedin, currentYear, handleJavaScript } = useFooter();
+  const { handleGithub, handleLinkedin, currentYear, handleJavaScript } =
+    useFooter();
 
   return (
     <footer className="footer py-4">
@@ -26,7 +34,11 @@ const Footer = () => {
               <Location /> Noida, UP
             </p>
             <p>
-              <Email /> satyamagrahari952@gmail.com
+              <a
+                className="text-white text-decoration-none"
+                href="mailto:satyamagrahari952@gmail.com">
+                <Email /> satyamagrahari952@gmail.com
+              </a>
             </p>
             <p>
               <Phone /> +91 1234567890
@@ -52,7 +64,6 @@ const Footer = () => {
                 </Link>
               </li>
             </ul>
-
           </div>
           <div className="col-md-4">
             <h5 className="text-uppercase">Contact Us</h5>
@@ -86,8 +97,7 @@ const Footer = () => {
                   className="form-control"
                   placeholder="Leave a comment here"
                   id="floatingTextarea"
-                  style={{ backgroundColor: "#fff" }}
-                ></textarea>
+                  style={{ backgroundColor: "#fff" }}></textarea>
                 <label htmlFor="floatingTextarea">Your Message</label>
               </div>
               <button type="submit" className="btn btn-primary">
