@@ -1,56 +1,79 @@
-/* In your CSS file */
-.line{
-    width: 5rem;
-    height: 0.25rem;
-    background-color: orange;
-    margin: 0.313rem 0.313rem;
-    border-radius: 0.625rem;
+.line {
+  width: 5rem;
+  height: 0.25rem;
+  background-color: orange;
+  margin: 0.313rem 0.313rem;
+  border-radius: 0.625rem;
 }
 
 /* About.css */
 .about-section {
+  padding: 3rem 0;
+}
+
+.satyam-image img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+@media (max-width: 576px) {
+  .about-section {
+    padding: 1.5rem 0;
+  }
+}
+
+@media (min-width: 576px) {
+  .about-section {
+    padding: 2rem 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .about-section {
+    padding: 2.5rem 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .about-section {
     padding: 3rem 0;
   }
-  
-  .satyam-image img {
-    width: 100%;
-    height: auto;
-    max-width: 100%;
+}
+
+@media (min-width: 1200px) {
+  .about-section {
+    padding: 3.5rem 0;
   }
-  
-  @media (max-width: 576px) {
-    .about-section {
-      padding: 1.5rem 0;
-    }
+}
+
+@media (min-width: 1400px) {
+  .about-section {
+    padding: 4rem 0;
   }
-  
-  @media (min-width: 576px) {
-    .about-section {
-      padding: 2rem 0;
-    }
-  }
-  
-  @media (min-width: 768px) {
-    .about-section {
-      padding: 2.5rem 0;
-    }
-  }
-  
-  @media (min-width: 992px) {
-    .about-section {
-      padding: 3rem 0;
-    }
-  }
-  
-  @media (min-width: 1200px) {
-    .about-section {
-      padding: 3.5rem 0;
-    }
-  }
-  
-  @media (min-width: 1400px) {
-    .about-section {
-      padding: 4rem 0;
-    }
-  }
-  
+}
+
+
+.tech-stack {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.tech-stack li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.tech-stack li button {
+  border-radius: 20px;
+  border-color: #cfccc2;
+  color: #6b5f5f;
+  padding: 5px 15px;
+  margin-bottom: 10px;
+}
+
+.tech-stack li button:hover {
+  background-color: #8d8c87;
+  color: white;
+}

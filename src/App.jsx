@@ -16,7 +16,7 @@ const Experience = React.lazy(() =>
 );
 const Project = React.lazy(() => import("./components/Projects/Project"));
 const Skill = React.lazy(() => import("./components/Skills/Skills"));
-const Contact = React.lazy(() => import("./components/Contact/Contact"));
+
 
 const App = () => {
   return (
@@ -54,10 +54,6 @@ const appRouter = createBrowserRouter([
       {
         path: "/experience",
         element: <Experience />,
-      },
-      {
-        path: "/contact",
-        element: <Contact />,
       },
     ],
   },

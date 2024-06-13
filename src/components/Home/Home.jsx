@@ -16,7 +16,7 @@ const Home = () => {
       <div className="mainnav container-fluid">
         <div className="text-animation">
           <h1 className="innertext text-center text-white">
-            Hi, I'm{" "}
+            Hi, I'm Satyam Agrahari <br />
             <span style={{ fontWeight: "bold", color: "yellow" }}>{text}</span>
             <Cursor />
           </h1>

@@ -1,8 +1,14 @@
 import React from "react";
-import './About.css';
-import satyamprofile from "../../assets/Images/about.jpg";
+import "./About.css";
+import satyam from "../../assets/Images/satyam.jpg";
 
 const About = () => {
+  const handleResume = () => {
+    window.open(
+      "https://drive.google.com/file/d/1j7kMxZzZnvj-xyjcKqAZ1n3R-dUBB-jz/view?usp=sharing"
+    ),
+      (target = "_blank");
+  };
   return (
     <>
       <section className="about-section py-5">
@@ -12,29 +18,87 @@ const About = () => {
               <p className="line"></p>
               <h1 className="text-primary">About Us</h1>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-                beatae voluptatem similique nulla at vitae ex quia itaque qui
-                illum alias ad iure, nam ipsam enim cumque aspernatur ratione,
-                temporibus culpa obcaecati? Quia quam pariatur iure deleniti
-                labore assumenda minima ullam qui. Magnam commodi sequi
-                obcaecati illo aperiam ea, incidunt veritatis natus! Harum totam
-                accusantium aspernatur commodi provident impedit numquam,
+                I am a curious learner and creative team player with 2.7 years
+                of professional experience. Interested in the Software Developer
+                role, I aim to apply my coding and software development
+                expertise effectively.
               </p>
               <p>
-                laborum voluptatum beatae nesciunt expedita tenetur assumenda
-                architecto fugiat esse, nostrum omnis? Eius, exercitationem.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. At
-                reprehenderit distinctio voluptate ullam vitae corporis iusto
-                laborum perspiciatis, cupiditate vel neque deserunt accusantium,
-                voluptas aut exercitationem molestias reiciendis maxime! Optio
-                recusandae repudiandae vitae minima saepe magnam aspernatur
-                temporibus mollitia nulla nam, ipsam, laudantium minus enim,
-                voluptatum dicta asperiores ipsum debitis?
+                My goal is to contribute to innovative projects and drive
+                success through collaborative problem-solving.
               </p>
+              <button
+                className="btn btn-outline-secondary"
+                onClick={handleResume}>
+                Download Resume
+              </button>
+              <div className="py-5">
+                <h3 className="text-primary">Tech Stack</h3>
+                <span>
+                  <ul className="tech-stack">
+                    <li>
+                      <button className="btn btn-outline-secondary">
+                        HTML
+                      </button>
+                    </li>
+                    <li>
+                      <button className="btn btn-outline-secondary">CSS</button>
+                    </li>
+                    <li>
+                      <button className="btn btn-outline-secondary">
+                        TailWind CSS
+                      </button>
+                    </li>
+                    <li>
+                      <button className="btn btn-outline-secondary">
+                        JavaScript
+                      </button>
+                    </li>
+                    <li>
+                      <button className="btn btn-outline-secondary">
+                        ES-6
+                      </button>
+                    </li>
+                    <li>
+                      <button className="btn btn-outline-secondary">
+                        React.JS
+                      </button>
+                    </li>
+                    <li>
+                      <button className="btn btn-outline-secondary">
+                        Redux
+                      </button>
+                    </li>
+                    <li>
+                      <button className="btn btn-outline-secondary">
+                        BootStrap
+                      </button>
+                    </li>
+                    <li>
+                      <button className="btn btn-outline-secondary">
+                        WebPack
+                      </button>
+                    </li>
+                    <li>
+                      <button className="btn btn-outline-secondary">NPM</button>
+                    </li>
+                    <li>
+                      <button className="btn btn-outline-secondary">GIT</button>
+                    </li>
+                    <li>
+                      <button className="btn btn-outline-secondary">SVN</button>
+                    </li>
+                  </ul>
+                </span>
+              </div>
             </div>
             <div className="col-lg-6 col-md-12">
               <div className="satyam-image">
-                <img src={satyamprofile} alt="satyam-agrahari-image" className="img-fluid" />
+                <img
+                  src={satyam}
+                  alt="satyam-agrahari-image"
+                  className="img-fluid"
+                />
               </div>
             </div>
           </div>
@@ -45,52 +109,3 @@ const About = () => {
 };
 
 export default About;
-
-
-// import React from "react";
-// import "./About.css";
-// import satyamprofile from "../../assets/Images/about.jpg";
-
-// const About = () => {
-//   return (
-//     <>
-//       <section className="about-section py-5">
-//         <div className="container">
-//           <div className="row">
-//             <div className="col-lg-6 col-md-12">
-//               <p className="line "></p>
-//               <h1 className="text-primary">About US</h1>
-//               <p>
-//                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-//                 beatae voluptatem similique nulla at vitae ex quia itaque qui
-//                 illum alias ad iure, nam ipsam enim cumque aspernatur ratione,
-//                 temporibus culpa obcaecati? Quia quam pariatur iure deleniti
-//                 labore assumenda minima ullam qui. Magnam commodi sequi
-//                 obcaecati illo aperiam ea, incidunt veritatis natus! Harum totam
-//                 accusantium aspernatur commodi provident impedit numquam,
-//               </p>
-//               <p>
-//                 laborum voluptatum beatae nesciunt expedita tenetur assumenda
-//                 architecto fugiat esse, nostrum omnis? Eius, exercitationem.
-//                 Lorem ipsum dolor sit amet consectetur adipisicing elit. At
-//                 reprehenderit distinctio voluptate ullam vitae corporis iusto
-//                 laborum perspiciatis, cupiditate vel neque deserunt accusantium,
-//                 voluptas aut exercitationem molestias reiciendis maxime! Optio
-//                 recusandae repudiandae vitae minima saepe magnam aspernatur
-//                 temporibus mollitia nulla nam, ipsam, laudantium minus enim,
-//                 voluptatum dicta asperiores ipsum debitis?
-//               </p>
-//             </div>
-//             <div className="col-lg-6 col-md-12">
-//               <div className="satyam-image">
-//                 <img src={satyamprofile} alt="satyam-agrahari-image" />
-//               </div>
-//             </div>
-//           </div>
-//         </div>
-//       </section>
-//     </>
-//   );
-// };
-
-// export default About;

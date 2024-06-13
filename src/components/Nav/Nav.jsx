@@ -52,11 +52,6 @@ const Nav = () => {
                   Project
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link className="nav-link" to={"/contact"}>
-                  Contact us
-                </Link>
-              </li>
             </ul>
           </div>
         </div>
