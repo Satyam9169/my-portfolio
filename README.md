@@ -1,5 +1,6 @@
 # My Portfolio App
 
+<<<<<<< HEAD
 ## Overview
 This project is a personal portfolio website built using React.js with Vite, employing functional components, hooks, and vanilla CSS for styling. The website is designed to showcase my skills, experience, and projects in an aesthetically pleasing and user-friendly manner.
 
@@ -32,3 +33,9 @@ To run the project locally, follow these steps:
 This project was created by Satyam Agrahari. 
 
 Feel free to reach out for any inquiries or collaborations!
+=======
+``
+![image](https://github.com/Satyam9169/my-portfolio/assets/38384042/5eb5c919-f913-4599-9a5d-18387aa3a942)
+
+``
+>>>>>>> ee1ea598bc378b22bda9142e53df0e18fbad2480
