@@ -47,7 +47,8 @@ Feel free to reach out for any inquiries or collaborations!
 
 
 
-![image](https://github.com/Satyam9169/my-portfolio/assets/38384042/6ac92aca-dcdd-484a-bd1b-24ced1a57f00)
+![image](https://github.com/Satyam9169/my-portfolio/assets/38384042/96b64c94-80c3-4c8c-9dd6-a344c77f4e44)
+
 
 
 
