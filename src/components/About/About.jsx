@@ -5,7 +5,7 @@ import satyam from "../../assets/Images/satyam.jpg";
 const About = () => {
   const handleResume = () => {
     window.open(
-      "https://drive.google.com/file/d/1j7kMxZzZnvj-xyjcKqAZ1n3R-dUBB-jz/view?usp=sharing"
+      "https://drive.google.com/file/d/1wvy2DmtLUdLkX8A847Aqxn-5jTlAfwNN/view?usp=sharing"
     ),
       (target = "_blank");
   };
