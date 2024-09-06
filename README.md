@@ -37,5 +37,28 @@ Feel free to reach out for any inquiries or collaborations!
 ``
 ![image](https://github.com/Satyam9169/my-portfolio/assets/38384042/5eb5c919-f913-4599-9a5d-18387aa3a942)
 
+
+
+![image](https://github.com/Satyam9169/my-portfolio/assets/38384042/f7ab6009-3b03-405a-ba3b-746f167e45f8)
+
+
+
+![image](https://github.com/Satyam9169/my-portfolio/assets/38384042/9da4adfc-61e8-4462-8b1b-1043cb21a1bd)
+
+
+
+![image](https://github.com/Satyam9169/my-portfolio/assets/38384042/96b64c94-80c3-4c8c-9dd6-a344c77f4e44)
+
+
+
+
+![image](https://github.com/Satyam9169/my-portfolio/assets/38384042/46404330-e4f9-4c59-9457-d9e4f3c183a2)
+
+
+
+
+
+
+
 ``
 >>>>>>> ee1ea598bc378b22bda9142e53df0e18fbad2480
