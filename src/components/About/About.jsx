@@ -5,7 +5,7 @@ import satyam from "../../assets/Images/satyam.jpg";
 const About = () => {
   const handleResume = () => {
     window.open(
-      "https://drive.google.com/file/d/1wvy2DmtLUdLkX8A847Aqxn-5jTlAfwNN/view?usp=sharing"
+      "https://drive.google.com/file/d/1ZyJz0zNZTwACfwnWDdKpDBNXYvBQNELi/view?usp=sharing"
     ),
       (target = "_blank");
   };
@@ -18,10 +18,10 @@ const About = () => {
               <p className="line"></p>
               <h1 className="text-primary">About Us</h1>
               <p>
-                I am a curious learner and creative team player with 2.7 years
-                of professional experience. Interested in the Software Developer
-                role, I aim to apply my coding and software development
-                expertise effectively.
+                I am a curious learner and creative team player with Almost 3
+                years of professional experience. Interested in the Software
+                Developer role, I aim to apply my coding and software
+                development expertise effectively.
               </p>
               <p>
                 My goal is to contribute to innovative projects and drive
